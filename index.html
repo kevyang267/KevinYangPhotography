@@ -1,0 +1,86 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photography Website</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/solid.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <nav>
+      <div class="container nav__container">
+        <a href="index.html">
+          <a src="" alt="Nav logo" class="nav__logo" href="#">Kevin Yang</a>
+        </a>
+        <ul class="nav__links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li>
+            <a href="https://github.com/kevyang267" target="_blank">GitHub</a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/kevin-yang-23102a222/"
+              target="_blank"
+              >LinkedIn</a
+            >
+          </li>
+          <li>
+            <a href="./again resume ig (1).pdf" target="_blank">Resume</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <header>
+      <div class="empty"></div>
+      <div class="container main__class__image">
+        <img src="./images/IMG_015.png" />
+        <h1 class="header__container main__text">Programmer & Photographer</h1>
+      </div>
+    </header>
+
+    <section id="gallery">
+      <div class="container gallery__container swiper mySwiper">
+        <div class="gallery__head">
+          <h2 class="gallery__title">Image Gallery</h2>
+          <div class="empty gallery__empty"></div>
+        </div>
+        <div class="swiper-wrapper">
+          <article class="swiper-slide">
+            <img src="./images/PXL_20230926_22275031.jpg" />
+          </article>
+          <article class="swiper-slide">
+            <img src="./images/PXL_20231001_002450.jpg" />
+          </article>
+          <article class="swiper-slide">
+            <img src="./images/PXL_20231001_01424726.jpg" />
+          </article>
+          <article class="swiper-slide">
+            <img src="./images/PXL_20231002_2139416.jpg" />
+          </article>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
