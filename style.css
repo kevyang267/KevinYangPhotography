@@ -19,6 +19,7 @@
   list-style: none;
   text-decoration: none;
   box-sizing: border-box;
+  /* border: 1px solid red; */
 }
 
 html {
@@ -35,15 +36,15 @@ body {
 h2 {
   line-height: 1.1;
   font-weight: 400;
-  font-size: 3.5rem;
+  font-size: 3.5vw;
 }
 
 h1 {
-  font-size: 6rem;
+  font-size: 6vw;
   font-family: "Playfair Display", serif;
   font-weight: 1;
   font-style: normal;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 a {
@@ -125,7 +126,6 @@ header {
   position: absolute;
   height: relative;
   width: relative;
-  color: white;
 }
 
 .empty {
